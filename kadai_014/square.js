@@ -1,6 +1,5 @@
 const square = (num) => {
-  const result = num ** 2;
-  console.log(result);
+  return num ** 2;
 }
 
-square(10);
+console.log(square(10)); // ← 定義のあとで呼ぶ
